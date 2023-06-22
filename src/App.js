@@ -20,42 +20,27 @@ function App() {
           Learn React
         </a>
       </header>
-      <section class="intro container">
-      <div>
-        <h1 class="intro__title"><span>YUMMY</span><br/>PUG</h1>
-        <p class="intro__text">
-          Всім привіт, я Ямі і я мопс, який дуже сильно полюбляє солодощі. Сьогодні я розкажу вам, чому саме солодощі і чому вони так важливі в нашому житті.
-          <br/>
-          Доречі, моє імʼя з англійської мови перекладається як “Смачний”.
+      <section class="advice container" id="yummi">
+      <div class="advice__details">
+        <h3 class="advice__details__title">
+          <span>Порада –</span>від Yummy
+        </h3>
+        <p class="advice__details__description">
+          З'ївши чергову шоколадку, ви не просто набираєте трохи додаткових калорій, але покращуєте тим самим роботу мозку, настрій і стаєте трішки добрішим. Вирішивши поласувати шоколадкою, віддавайте перевагу саме чорному шоколаду з високим вмістом какао-бобів. У цьому вигляді шоколаду менше жиру і цукру, ніж в молочному шоколаді, але зате магнію, кальцію, заліза, білка, антиоксидантів і вітамінів предостатньо.
         </p>
-        <button class="intro__button">
-          Мої улюбленні солодощі
-        </button>
+        <h4 class="advice__details__">Солодощі, які радить їсти Ямі:</h4>
+        <ul class="advice__details__list">
+          <li>Чорний шоколад</li>
+          <li>Зефір</li>
+          <li>Пастила</li>
+          <li>Мармелад</li>
+          <li>Мед</li>
+          <li>Халва</li>
+          <li>Цукати</li>
+        </ul>
       </div>
-      <img  class="intro__image" src="/puppy-1.png" alt="puppy"/>
+      <img class="advice__image" src="/puppy-2.png" alt="puppy"/>
     </section>
-      <section class="sweets" id="sweets">
-        <h2 class="sweets__title container">
-          <span>мої улюбленні</span> солодощі
-        </h2>
-        <div class="sweets__items container">
-          <div class="sweets__item">
-            <img class="sweets__item__image" src="/sweet-1.png" alt="sweet" />
-            <h3 class="sweets__item__title">Червоний мак</h3>
-            <p class="sweets__item__description">Пралене з додаванням карамельної крихти, пасти ядер горіхів фундука та мигдалюпокрите шоколадною глазурʼю</p>
-          </div>
-          <div class="sweets__item">
-            <img class="sweets__item__image" src="/sweet-2.png" alt="sweet" />
-            <h3 class="sweets__item__title">Сливки-ленивки</h3>
-            <p class="sweets__item__description">Світлі вафельні листи, поєднані молочно-вершковою начинкою та покриті глазур’ю.</p>
-          </div>
-          <div class="sweets__item">
-            <img class="sweets__item__image" src="/sweet-3.png" alt="sweet" />
-            <h3 class="sweets__item__title">Ліщина</h3>
-            <p class="sweets__item__description">Праліне з додаванням подрібненої та тертої ліщини та мигдалю, покрите шоколадною глазур’ю.</p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
